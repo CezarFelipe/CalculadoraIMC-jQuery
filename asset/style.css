@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.corpo{
+    margin: auto;
+    width: 600px;
+    margin-top: 50px;
+    
+    padding: 3px;
+
+}
+.painel{
+    margin-top: 5px;
+    background-color:gray;
+}
+.texto{
+    padding: 8px;
+}
+.campo{
+    padding: 2px;
+    margin-top: 5px;
+    padding-bottom: 4px;
+}
+button{
+    margin: 6px;
+
+}
+.painel1 .painel2{
+    float: left;
+    background-color: gray;
+}
