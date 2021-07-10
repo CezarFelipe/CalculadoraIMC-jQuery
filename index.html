@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>BemDeVida</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='asset/style.css'>
+    <script src="/asset/jquery-3.4.1.min.js"></script>
+    <script src='asset/script.js'></script>
+    
+</head>
+<body>
+    <div class="corpo">
+        <div class="painel">
+            <div class="texto">Altura em metros(ex:1,70 metros)</div>
+            <div class="campo"><input type="text" name="altura" id="altura" /></div>
+        </div>
+        <div class="painel">
+            <div class="texto">Peso em quilos</div>
+            <div class="campo"><input type="text" name="peso" id="peso" /></div>
+        </div>
+        <div class="painel">
+            <div class="texto">RESULTADO</div>
+            <div class="campo"><button id="botao" onclick="calcular()">CALCULAR</button><input type="text" name="resultado" id="resultado" /></div><br/>
+            <label class="resposta" id="resposta"></label>
+        </div>
+    </div>
+</body>
+</html>
